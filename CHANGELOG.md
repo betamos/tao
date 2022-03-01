@@ -1,5 +1,10 @@
 # Changelog
 
+## \[0.6.4]
+
+- On Windows, apply maximize state before minimize. Fixes `Window::set_minimized` not working when the window is maximized.
+  - [11dac102](https://github.com/tauri-apps/tao/commit/11dac10241330c30aae660a2621d43ee5eb3775d) fix(windows): apply maximize state before minimize ([#334](https://github.com/tauri-apps/tao/pull/334)) on 2022-03-01
+
 ## \[0.6.3]
 
 - Revert Global Shortcut fix on Linux. See [#331](https://github.com/tauri-apps/tao/issues/331) for more information.
